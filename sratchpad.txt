@@ -1,0 +1,10 @@
+Task :1 
+
+count the number of bytes in a file 
+
+1. setup the environment => done
+2. map the command to execute based on the script => done
+3. get arguments from the file name  => done
+4. read the file
+5. Read contents od the file and return the output
+

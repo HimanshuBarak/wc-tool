@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wc-tool"
+version = "0.1.0"
+description = "cli tool to count words characters bytes in a file"
+authors = ["Himanshu Barak <himanshu.barak@signzy.com>"]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.scripts]
+ccwc = "wc_tool.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
