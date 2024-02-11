@@ -5,6 +5,13 @@ A simplified version of one of the most valuabe Unix command line tools `wc` wri
 `ccwc` just like the original `wc` is a command line tool that allows you to count the number of lines, words, bytes, and characters in the file specified by the `File` parameter.
 
 ## Install
+Create a conda environment
+
+`conda create -n wc-tool python=3.10`
+
+Activate the conda environment
+
+`conda activate wc-tool`
 
 If you don't have poetry installed on your system
 `pip install poetry`
